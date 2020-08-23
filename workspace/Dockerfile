@@ -347,7 +347,7 @@ RUN if [ ${INSTALL_SUBVERSION} = true ]; then \
 
 USER root
 
-ARG INSTALL_XDEBUG=false
+ARG INSTALL_XDEBUG=true
 
 RUN if [ ${INSTALL_XDEBUG} = true ]; then \
     # Load the xdebug extension only with phpunit commands
